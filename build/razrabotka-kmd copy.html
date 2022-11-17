@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Landing Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ferrum Landing Page</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+
+<!-- Header -->
+<header>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo logo-main">
+                    <a href="index.html">
+                        <svg width="35" height="67" viewBox="0 0 35 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 4.99408L1 7.65681L33.9512 7.65681C33.9512 5.26036 31.7323 4.43935 30.6228 4.3284H25.2973V1L12.3166 1L1 4.99408Z" stroke="white" stroke-width="1.99704"/>
+                            <path d="M18.6406 14.3136L1.00003 14.3136V16.9763L11.9838 20.8529V27.6272H18.6406V14.3136ZM18.6406 14.3136H23.6332M23.6332 14.3136H33.9512C33.9512 16.7101 31.7323 17.5311 30.6228 17.642H28.9586V27.6272H23.6332V14.3136Z" stroke="white" stroke-width="1.99704"/>
+                            <path d="M25.2974 7.6568L16.6435 7.6568V14.3136H25.2974V7.6568Z" stroke="white" stroke-width="1.99704"/>
+                            <path d="M16.3107 27.6272L16.3107 65.571H25.6302V27.6272" stroke="white" stroke-width="1.99704"/>
+                            <path d="M16.3107 31.2885H15.3122V33.2855H16.3107V31.2885ZM20.3048 33.2855C20.8562 33.2855 21.3033 32.8385 21.3033 32.287C21.3033 31.7355 20.8562 31.2885 20.3048 31.2885V33.2855ZM16.3107 33.2855H20.3048V31.2885H16.3107V33.2855Z" fill="white"/>
+                            <path d="M16.3107 39.2766H15.3122V41.2737H16.3107V39.2766ZM20.3048 41.2737C20.8562 41.2737 21.3033 40.8266 21.3033 40.2751C21.3033 39.7237 20.8562 39.2766 20.3048 39.2766V41.2737ZM16.3107 41.2737H20.3048V39.2766H16.3107V41.2737Z" fill="white"/>
+                            <path d="M16.3107 47.2648H15.3122V49.2618H16.3107V47.2648ZM20.3048 49.2618C20.8562 49.2618 21.3033 48.8148 21.3033 48.2633C21.3033 47.7119 20.8562 47.2648 20.3048 47.2648V49.2618ZM16.3107 49.2618H20.3048V47.2648H16.3107V49.2618Z" fill="white"/>
+                            <path d="M16.3107 55.253H15.3122V57.25H16.3107V55.253ZM20.3048 57.25C20.8562 57.25 21.3033 56.803 21.3033 56.2515C21.3033 55.7 20.8562 55.253 20.3048 55.253V57.25ZM16.3107 57.25H20.3048V55.253H16.3107V57.25Z" fill="white"/>
+                            <path d="M16.3107 36.2811H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            <path d="M16.3107 44.2692H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            <path d="M16.3107 52.2574H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            <path d="M16.3107 60.2456H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                        </svg>
+                        Ferrum
+                    </a>
+                </div>
+
+                <ul class="menu">
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Наши услуги</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Контакты</a></li>
+
+                    <div class="logo logo-center">
+                        <a href="index.html">
+                            <svg width="35" height="67" viewBox="0 0 35 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 4.99408L1 7.65681L33.9512 7.65681C33.9512 5.26036 31.7323 4.43935 30.6228 4.3284H25.2973V1L12.3166 1L1 4.99408Z" stroke="white" stroke-width="1.99704"/>
+                                <path d="M18.6406 14.3136L1.00003 14.3136V16.9763L11.9838 20.8529V27.6272H18.6406V14.3136ZM18.6406 14.3136H23.6332M23.6332 14.3136H33.9512C33.9512 16.7101 31.7323 17.5311 30.6228 17.642H28.9586V27.6272H23.6332V14.3136Z" stroke="white" stroke-width="1.99704"/>
+                                <path d="M25.2974 7.6568L16.6435 7.6568V14.3136H25.2974V7.6568Z" stroke="white" stroke-width="1.99704"/>
+                                <path d="M16.3107 27.6272L16.3107 65.571H25.6302V27.6272" stroke="white" stroke-width="1.99704"/>
+                                <path d="M16.3107 31.2885H15.3122V33.2855H16.3107V31.2885ZM20.3048 33.2855C20.8562 33.2855 21.3033 32.8385 21.3033 32.287C21.3033 31.7355 20.8562 31.2885 20.3048 31.2885V33.2855ZM16.3107 33.2855H20.3048V31.2885H16.3107V33.2855Z" fill="white"/>
+                                <path d="M16.3107 39.2766H15.3122V41.2737H16.3107V39.2766ZM20.3048 41.2737C20.8562 41.2737 21.3033 40.8266 21.3033 40.2751C21.3033 39.7237 20.8562 39.2766 20.3048 39.2766V41.2737ZM16.3107 41.2737H20.3048V39.2766H16.3107V41.2737Z" fill="white"/>
+                                <path d="M16.3107 47.2648H15.3122V49.2618H16.3107V47.2648ZM20.3048 49.2618C20.8562 49.2618 21.3033 48.8148 21.3033 48.2633C21.3033 47.7119 20.8562 47.2648 20.3048 47.2648V49.2618ZM16.3107 49.2618H20.3048V47.2648H16.3107V49.2618Z" fill="white"/>
+                                <path d="M16.3107 55.253H15.3122V57.25H16.3107V55.253ZM20.3048 57.25C20.8562 57.25 21.3033 56.803 21.3033 56.2515C21.3033 55.7 20.8562 55.253 20.3048 55.253V57.25ZM16.3107 57.25H20.3048V55.253H16.3107V57.25Z" fill="white"/>
+                                <path d="M16.3107 36.2811H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                                <path d="M16.3107 44.2692H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                                <path d="M16.3107 52.2574H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                                <path d="M16.3107 60.2456H18.9734" stroke="white" stroke-width="1.99704" stroke-linecap="round"/>
+                            </svg>
+                            Ferrum
+                        </a>
+                    </div>
+
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Заказать изделия</a></li>
+                    <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>О компании</a></li>
+                </ul>
+
+                <div class="burger">
+                    <span></span>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Page -->
+<main>
+
+<!-- Info (razrabotka-kmd) -->
+<section class="info">
+    <div class="container">
+
+        <div class="info__wrapper">
+
+            <div class="info__content">
+                <h2 class="info__title section-title tac">Разработка КМД</h2>
+
+                <p class="info-text tac">Разработка КМД — это услуга по изготовлению пакета документов для использования в строительной отрасли. Пакет документации Конструкций Металлических Деталировочных — это рабочая документация для изготовления металлоконструкций на заводе и монтажа здания на стройплощадке.</p>
+            </div>
+
+            <!-- Swiper -->
+            <div class="info__swiper swiper">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <img src="./img/info/info-1.jpg" alt="info-img">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./img/info/info-2.jpg" alt="info-img">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./img/info/info-3.jpg" alt="info-img">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./img/info/info-4.jpg" alt="info-img">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./img/info/info-5.jpg" alt="info-img">
+                    </div>
+
+                    <div class="swiper-slide">
+                        <img src="./img/info/info-6.jpg" alt="info-img">
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+        </div>
+
+        <div class="info__inner">
+            <p class="info-text">Пакет состоит из:</p>
+
+            <ul class="info__menu">
+                <li class="info__item info-text">рабочих чертежей для изготовления металлоконструкций (для производственного процесса)</li>
+                <li class="info__item info-text">монтажных чертежей, включающих все схемы расположение элементов, узлов и деталей</li>
+                <li class="info__item info-text">рабочая спецификация элементов</li>
+                <li class="info__item info-text">сопроводительная записка к документации и инструкция по монтажу</li>
+            </ul>
+
+            <p class="info-text">Разработка КМД подтверждается наличием необходимых сертификатов</p>
+        </div>
+
+        
+    </div>
+</section> 
+
+
+<!-- Form -->
+<section class="form">
+    <div class="container">
+
+        <div class="form__wrapper">
+            <div class="form__content">
+
+                <h3 class="form__content-title section-pretitle">Остались вопросы? Отправьте заявку!</h3>
+
+                <p class="form__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium porttitor quam tincidunt faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium porttitor quam tincidunt faucibus.</p>
+
+                <div class="form__content-inner">
+                    <a href="#">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.2183 0H11.7817C2.25774 0 0 2.25774 0 11.7817V22.2183C0 31.7423 2.25774 34 11.7817 34H22.2183C31.7423 34 34 31.7423 34 22.2183V11.7817C34 2.25774 31.7199 0 22.2183 0ZM27.4478 24.254H24.9797C24.0447 24.254 23.7568 23.5124 22.0749 21.8082C20.614 20.3919 19.9669 20.2039 19.6068 20.2039C19.0978 20.2039 18.9533 20.3473 18.9533 21.0453V23.2755C18.9533 23.8736 18.7653 24.2327 17.1822 24.2327C14.5643 24.2327 11.6595 22.6497 9.62276 19.7003C6.55117 15.3781 5.71076 12.1408 5.71076 11.4715C5.71076 11.1113 5.85419 10.7745 6.54586 10.7745H9.01928C9.64507 10.7745 9.88307 11.0624 10.1264 11.7318C11.3493 15.2623 13.386 18.3552 14.2264 18.3552C14.5367 18.3552 14.6801 18.2117 14.6801 17.4202V13.7738C14.5855 12.0919 13.7005 11.9474 13.7005 11.3503C13.7005 11.0624 13.9385 10.7745 14.3199 10.7745H18.2096C18.7355 10.7745 18.9289 11.0624 18.9289 11.6818V16.601C18.9289 17.1323 19.1669 17.3203 19.3103 17.3203C19.6206 17.3203 19.8862 17.1323 20.461 16.5564C22.2374 14.5643 23.5103 11.4927 23.5103 11.4927C23.676 11.1325 23.9639 10.7957 24.5897 10.7957H27.0632C27.8048 10.7957 27.9705 11.1772 27.8048 11.7084C27.4945 13.147 24.4675 17.4191 24.4675 17.4191C24.2072 17.8505 24.1074 18.0386 24.4675 18.5199C24.7332 18.88 25.597 19.627 26.1717 20.2963C27.2289 21.4969 28.0417 22.5041 28.2584 23.2011C28.5017 23.8928 28.1426 24.2529 27.4446 24.2529L27.4478 24.254Z" fill="white"/>
+                        </svg>
+                    </a>
+
+                    <a href="#">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.20818 0C2.76912 0 0 2.76912 0 6.20818V27.7918C0 31.2308 2.76912 34 6.20818 34H17.9063V20.7081H14.3916V15.9226H17.9063V11.8341C17.9063 8.62197 19.983 5.67268 24.7668 5.67268C26.7037 5.67268 28.136 5.85863 28.136 5.85863L28.0234 10.3275C28.0234 10.3275 26.5627 10.3137 24.9687 10.3137C23.2436 10.3137 22.967 11.1086 22.967 12.4281V15.9226H28.1604L27.9341 20.7081H22.967V34H27.7917C31.2308 34 33.9999 31.2309 33.9999 27.7918V6.20822C33.9999 2.76916 31.2308 3.39999e-05 27.7917 3.39999e-05H6.20815L6.20818 0Z" fill="white"/>
+                        </svg>
+                    </a>
+
+                    <a href="#">
+                        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.9957 11.3309C13.8741 11.3309 11.3266 13.8784 11.3266 17C11.3266 20.1216 13.8741 22.6691 16.9957 22.6691C20.1173 22.6691 22.6648 20.1216 22.6648 17C22.6648 13.8784 20.1173 11.3309 16.9957 11.3309ZM33.9987 17C33.9987 14.6524 34.0199 12.3261 33.8881 9.98276C33.7563 7.26092 33.1353 4.84529 31.145 2.85494C29.1504 0.860345 26.739 0.243679 24.0172 0.11184C21.6696 -0.0199994 19.3433 0.00126499 16.9999 0.00126499C14.6524 0.00126499 12.326 -0.0199994 9.9827 0.11184C7.26086 0.243679 4.84523 0.864598 2.85488 2.85494C0.860284 4.84954 0.243618 7.26092 0.111779 9.98276C-0.0200605 12.3303 0.00120396 14.6567 0.00120396 17C0.00120396 19.3433 -0.0200605 21.6739 0.111779 24.0172C0.243618 26.7391 0.864537 29.1547 2.85488 31.1451C4.84948 33.1397 7.26086 33.7563 9.9827 33.8882C12.3303 34.02 14.6566 33.9987 16.9999 33.9987C19.3475 33.9987 21.6738 34.02 24.0172 33.8882C26.739 33.7563 29.1547 33.1354 31.145 31.1451C33.1396 29.1505 33.7563 26.7391 33.8881 24.0172C34.0242 21.6739 33.9987 19.3476 33.9987 17ZM16.9957 25.7226C12.1687 25.7226 8.27304 21.827 8.27304 17C8.27304 12.173 12.1687 8.27736 16.9957 8.27736C21.8227 8.27736 25.7183 12.173 25.7183 17C25.7183 21.827 21.8227 25.7226 16.9957 25.7226ZM26.0756 9.95724C24.9486 9.95724 24.0384 9.04713 24.0384 7.92011C24.0384 6.7931 24.9486 5.88299 26.0756 5.88299C27.2026 5.88299 28.1127 6.7931 28.1127 7.92011C28.113 8.18773 28.0606 8.45278 27.9583 8.70009C27.8561 8.94739 27.706 9.1721 27.5168 9.36133C27.3276 9.55056 27.1029 9.7006 26.8555 9.80286C26.6082 9.90512 26.3432 9.95758 26.0756 9.95724Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Form -->
+
+            <form class="contact-form" id="contact-form">
+                <label>Ваше имя</label>
+                <input type="text" placeholder="Иван Иванов"/>
+
+                <label>Ваш email</label>
+                <input type="email" placeholder="example@example.com"/>
+
+                <label>Номер телефона</label>
+                <input type="tel" placeholder="+7 (___)-__-__"/>
+
+                <!-- <textarea name="textarea" rows="3" cols="20" placeholder="Message"></textarea> -->
+
+                <input type="button" value="Отправить заявку"/>
+            </form>
+
+
+        </div>
+    </div>
+</section>
+
+
+</main>
+
+<!-- Footer -->
+
+
+</body>
+
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/scripts.min.js"></script>
+<script src="./js/scripts.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
